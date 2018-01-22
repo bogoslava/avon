@@ -1,0 +1,2 @@
+promeqna na vsi4ki tabove v grafa avon  site -> addvane na buttona  "Back"  i da vodi kum "../index.html"
+izbirane i pravena na papka s lubima muzika 
