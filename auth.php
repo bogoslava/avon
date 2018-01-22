@@ -10,8 +10,6 @@
 <body>
     <?php
     session_start();
-    $_SESSION['statuslogin'] = "";
-    $_SESSION['statusregiser'] = "";
     var_dump($_SESSION);
     ?>
     <div class="row">
@@ -85,5 +83,8 @@
         <div class="col-sm-1">  
         </div>
     </div>
+    <?php
+    
+    ?>
 </body>
 </html>
