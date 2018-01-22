@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style/style.css"> 
+    <link rel="stylesheet" href="style/style.css"> 
     <title>Auth</title>
 </head>
 <body>
     <?php
     session_start();
-    $_SESSION['statuslogin'] = "";
-    $_SESSION['statusregiser'] = "";
-    var_dump($_SESSION);
     ?>
     <div class="row">
         <div class="col-sm-1">
@@ -28,7 +25,7 @@
                 <div class="form-group">
                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                 <div class="col-lg-10">
-                    <input class="form-control" name="Email" id="inputEmail" placeholder="Email" type="text" required>
+                    <input class="form-control" name="email" id="inputEmail" placeholder="Email" type="text" required>
                 </div>
                 </div>
                 <div class="form-group">
@@ -41,6 +38,7 @@
                 <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <a href="index.html" class="btn btn-default">Back To home page</a>
                     </div>
                 </div>
             </fieldset>
@@ -85,5 +83,8 @@
         <div class="col-sm-1">  
         </div>
     </div>
+    <?php
+
+    ?>
 </body>
 </html>
