@@ -33,6 +33,6 @@ include_once "DB.php";
             header("Location: ../auth.php");
         }
     }else{
-        header("Location: ../index.php");
+        header("Location: ../index1.php");
     }
 ?>
