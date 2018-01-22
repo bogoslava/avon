@@ -38,6 +38,7 @@
                 <div class="form-group">
                     <div class="col-lg-10 col-lg-offset-2">
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <a href="index.html" class="btn btn-default">Back To home page</a>
                     </div>
                 </div>
             </fieldset>
