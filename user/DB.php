@@ -2,10 +2,10 @@
 class DB
 {
     function DataBase(){
-        $servername = "127.0.0.1";
-        $username = "root";
-        $password = "";
-        $dbname = "bogiwebsite";
+        $servername = "localhost";
+        $username = "id3301712_ivan4ov4";
+        $password = "ZXCzxc71951055";
+        $dbname = "id3301712_bogiwebsite";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
