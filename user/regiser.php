@@ -6,9 +6,9 @@ session_start();
     if ($password1 === $password2){
 
     }else{
+        $_SESSION['statuslogin'] = "";
         $_SESSION['statusregiser'] = "You password does not much";
         var_dump($_SESSION);
-        exit;
         header("Location: ../auth.php");
     }
 
