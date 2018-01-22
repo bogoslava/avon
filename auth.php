@@ -10,7 +10,6 @@
 <body>
     <?php
     session_start();
-    var_dump($_SESSION);
     ?>
     <div class="row">
         <div class="col-sm-1">
@@ -26,7 +25,7 @@
                 <div class="form-group">
                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                 <div class="col-lg-10">
-                    <input class="form-control" name="Email" id="inputEmail" placeholder="Email" type="text" required>
+                    <input class="form-control" name="email" id="inputEmail" placeholder="Email" type="text" required>
                 </div>
                 </div>
                 <div class="form-group">
@@ -84,7 +83,7 @@
         </div>
     </div>
     <?php
-    
+
     ?>
 </body>
 </html>
